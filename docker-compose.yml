@@ -1,0 +1,8 @@
+version: "3"
+services:
+  api:
+    image: api/usermanagement
+    ports:
+      - "8080:8080"
+    environment:
+      - LOGGING_LEVEL_ROOT=info

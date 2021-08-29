@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+  error:
+    include-stacktrace: never
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/
+      database: user_db
